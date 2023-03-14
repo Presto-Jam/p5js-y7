@@ -1,10 +1,15 @@
 //grid dimentions
-let gridamt = 4
-let boxsize = 400/gridamt
+let griddim = 10
+let gridamt = griddim+1
+let boxsize = 480/griddim
 
 //colors
 let rgb = 255
 let colorChance = 50 //0 to 100
+
+let cr = 0
+let cg = 255
+let cb = 255
 
 //reseting variables
 let boxesgen = 0
@@ -17,7 +22,7 @@ function setup() {
 
 function draw() {
   //generate the grid
-  //noStroke()
+  noStroke()
   for(let a=0; a<gridamt; a++) {
     if(boxesgen == gridamt) {
       boxesgen = 0
@@ -37,9 +42,8 @@ function draw() {
       boxchecknum = row + column*gridamt
 
       if(mouseX < boxsize*row && mouseY < boxsize*column && mouseX > boxsize*(row-1) && mouseY > boxsize*(column-1)) {
-        console.log(true)
-        fill(0,0,0)
-        rect(mouseX,boxsize*(column-1),boxsize,boxsize)
+        fill(random()*cr,random()*cg,random()*cb)
+        rect(boxsize*(row-1),boxsize*(column-1),boxsize,boxsize)
       }
     }
   }
