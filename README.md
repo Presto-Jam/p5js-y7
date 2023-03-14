@@ -11,16 +11,17 @@ This is my first ever p5.js project, which includes rectangles that keep changin
 This project was a challenge from my Y7 Design teacher, Mr. Chin. The challenge? Re-create my 'Cracked Cookie Code' Photoshop poster from the Event Promotion unit, also from Y7.
 
 ## Bonkers with Beziers
-This was inspired by the cool things that beziers can do. I was scrolling down the P5.JS documentation when I found that it could draw bezier curves, and decided to give it a go. The project isn't as cool as I would want it to be, but hey! This is just my 3rd project!!
+This was inspired by the cool things that beziers can do. I was scrolling down the P5.JS documentation when I found that it could draw bezier curves, and decided to give it a go. The project isn't as cool as I would want it to be, but hey! This is just my 3rd project!! At first, I wanted to make a color pallete generator, but after I started and couldn't stop the boxes from changing colors every frame, I decided to go on the 'break-eyeballs' pathway and make rectangles that blind people, so I made the rectangles be able to change size and adapt to that, as well as let the user decide the amount of rectanlges by changing one variable. I also allowed the user to control the max RGB randomization for each box (color randomization controls).
 
 
 ## Grid Goofiness
-This was an attempt at creating a grid that has squares that get highlighted when the mouse goes over it. It's not that cool but it's just a practice project!!!
+This was an attempt at creating a grid that has squares that get highlighted when the mouse goes over it. It's not that cool but it's just a practice project!!! I started this project during an, I quote Sean, a very practical detention (it wasn't). I wanted to make a QR code, but then the website crashed and I had to restart, and I forgot how to make the color be retained, so I just turned this into a practice project :). Hey! I'm still working on commiting to projects I start.
 
 ## Art Arsenal
 A procedural generation art creater with grids. This was the project I decided to go with after the Grid Goofiness project I made. 
 <img src="https://user-images.githubusercontent.com/65468855/224895477-13ee59ff-d583-406b-96d4-d3e92bd7baab.png" width= 300 height= 300>
 ###### Plan of how the procedural generation will work. Typo in the title.
+I wanted to do this after I saw someone make **marching squares** with p5.js. This is basically an oversimplified version of that.
 
 
 # Author
