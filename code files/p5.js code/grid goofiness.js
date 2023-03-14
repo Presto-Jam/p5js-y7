@@ -1,5 +1,5 @@
-//grid dimensions
-let griddim = 10
+//grid dimentions
+let griddim = 5
 let gridamt = griddim+1
 let boxsize = 480/griddim
 
