@@ -4,6 +4,10 @@ This repo contains many files that each include code that is executable with the
 
 # Table of contents
 The projects are put in chronological order, based on when I started them.
+
+## 👀 NOTE BEFORE YOU START
+You can find the projects [here](https://github.com/Prestopy/p5js-y7/tree/main/code%20files/p5.js%20code)
+
 ## Ridiculous Rectangles
 This is my first ever p5.js project, which includes rectangles that keep changing size and color. Careful! It's eye-blinding 🤣. **Backstory**: At first, I wanted to make a color pallete generator, but after I started and couldn't stop the boxes from changing colors every frame, I decided to go on the 'break-eyeballs' pathway and make rectangles that blind people, so I made the rectangles be able to change size and adapt to that, as well as let the user decide the amount of rectanlges by changing one variable. I also allowed the user to control the max RGB randomization for each box (color randomization controls).
 
