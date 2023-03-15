@@ -25,7 +25,7 @@ This was an attempt at creating a grid that has squares that get highlighted whe
 A procedural generation art creater with grids. This was the project I decided to go with after the Grid Goofiness project I made. 
 <img src="https://user-images.githubusercontent.com/65468855/224895477-13ee59ff-d583-406b-96d4-d3e92bd7baab.png" width= 300 height= 300>
 ###### Plan of how the procedural generation will work. Typo in the title.
-I wanted to do this after I saw someone make **marching squares** with p5.js. This is basically an oversimplified version of that.
+I wanted to do this after I saw someone make **marching squares** with p5.js. I don't know why because marching squares is not like this. It is far from this. I guess it just made me think of procedural generation?
 
 
 # Author
