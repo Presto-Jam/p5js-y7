@@ -12,6 +12,9 @@ let maxblue = 180; //maximum BLUE amount in RGB color randomization
 
 function setup() {
   createCanvas(canvasx, canvasy); //creates a canvas
+
+  //HTML setup
+  canvas.parent('RiRe');
 }
 
 function draw() {
