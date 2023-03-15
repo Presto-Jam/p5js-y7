@@ -11,6 +11,7 @@ let linebgb = 255
 
 function setup() {
   createCanvas(canvasx,canvasy)
+  frameRate(120)
 }
 
 function draw() {
