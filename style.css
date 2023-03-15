@@ -12,6 +12,10 @@ canvas {
   display: block;
 }
 
+script {
+  position: relative !important;
+}
+
 .container {
   padding: 5%
 }
