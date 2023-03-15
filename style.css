@@ -15,3 +15,14 @@ canvas {
 .container {
   padding: 5%
 }
+
+.project-container {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #37373b
+}
+.project-container > h1 {
+  background: linear-gradient(90deg,#ffffff,#d1d1d1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
