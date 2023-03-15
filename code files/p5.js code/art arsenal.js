@@ -8,8 +8,8 @@ let canvasx = 480
 let canvasy = 480
 
 //grid variables
-let gridx = 4
-let gridy = 4
+let gridx = 20
+let gridy = 20
 let boxx = canvasx/gridx
 let boxy = canvasy/gridy
 
@@ -18,6 +18,11 @@ let startboxx = 0
 let startboxy = 0
 
 let nowbox = []
+let nextboxposx = []
+let nextboxposy = []
+
+let boxposesx = []
+let boxposesy = []
 
 
 
@@ -27,6 +32,7 @@ function setup() {
 
     startboxx = Math.floor(random()*gridx)
     startboxy = Math.floor(random()*gridy)
+    nowbox.push(startboxx,startboxy)
 }
 
 function draw() {
@@ -42,10 +48,21 @@ function draw() {
     //generate a starting box
     fill(0,0,0)
     rect(startboxx*boxx,startboxy*boxy,boxx,boxy)
+    console.log(startboxx)
 
-    //update nowbox
-    nowbox.push(startboxx,startboxy)
+    //--> generate other boxes
+    nextboxposx.push(nowbox[0]-1,nowbox[0]+1)
+    nextboxposy.push(nowbox[1]-1,nowbox[1]+1)
 
-    //generate other boxes
+    nowbox[0] = nextboxposx[Math.floor(random()*nextboxposx.length-1)]
+    nowbox[1] = nextboxposy[Math.floor(random()*nextboxposy.length-1)]
+
+    for(let i=0; i<100; i++) {
+        boxposesx.push(nowbox[0])
+        boxposesy.push(nowbox[1])
+        console.log(boxposesx)
+        rect(boxposesx[i]*boxx,boxposesy[i]*boxy,boxx,boxy)
+    }
+
 
 }
