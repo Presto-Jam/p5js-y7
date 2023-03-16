@@ -80,9 +80,12 @@ script {
 }
 .footer > h1 {
   font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
 }
 .footer > p {
   font-size: 20px;
+  color: #ffffff;
 }
 
 /* Scrollbar */
