@@ -16,6 +16,29 @@ script {
   display: block !important;
 }
 
+.hero {
+  background: linear-gradient(90deg, #ff5454,#ff9422);
+  -webkit-background-clip: text;
+  transition: 0.5s;
+}
+
+@keyframes wobble {
+  from {
+    rotate: 5deg;
+  }
+  to {
+    rotate: -5deg;
+  }
+}
+
+.hero:hover {
+  margin-bottom: 1px;
+
+  animation: 'wobble', infinite, ease-in-out;
+
+  transition: 0.5s;
+}
+
 .container {
   padding: 5%
 }
@@ -26,7 +49,7 @@ script {
   background-color: #ffffff;
   margin: 10px;
 }
-.project-container > p, h1, h2, h3, h4, h5, h6 {
+.project-container > p, .project-container > h1 {
   color: #0d0d0d
 }
 
