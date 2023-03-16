@@ -13,7 +13,7 @@ canvas, script {
 }
 
 script {
-  position: relative !important;
+  display: block !important;
 }
 
 .container {
