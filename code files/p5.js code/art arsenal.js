@@ -22,11 +22,14 @@ let nowbox = []
 
 
 function setup() {
-    createCanvas(480, 480);
-    //noStroke()
+    let cnv = createCanvas(480, 480);
+    noStroke()
 
     startboxx = Math.floor(random()*gridx)
     startboxy = Math.floor(random()*gridy)
+
+    //HTML Setup
+    cnv.parent('ArAr')
 }
 
 function draw() {
