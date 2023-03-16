@@ -14,7 +14,7 @@ function setup() {
   createCanvas(canvasx, canvasy); //creates a canvas
 
   //HTML setup
-  canvas.parent('RiRe');
+  canvas.parent('RidiculousRectangles');
 }
 
 function draw() {
