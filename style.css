@@ -20,13 +20,15 @@ script {
   font-weight: 800;
   margin: auto;
   text-align: center;
+  color: #ffffff;
 
   transition: 80ms;
 }
-.hero > p {
+.hero > #txt30 {
   font-size: 30px;
   margin: auto;
   text-align: center;
+  color: #ffffff;
 
   transition: 100ms;
 }
