@@ -17,8 +17,7 @@ script {
 }
 
 .hero > h1 {
-  background: linear-gradient(90deg, #ff5454,#ff9422);
-  -webkit-background-clip: text;
+  font-size: 40px;
   transition: 0.5s;
 }
 
@@ -31,7 +30,7 @@ script {
   }
 }
 
-.hero:hover {
+.hero > h1:hover {
   margin-bottom: 1px;
 
   animation: 'wobble', infinite, ease-in-out;
@@ -50,7 +49,7 @@ script {
   margin: 10px;
 }
 .project-container > p, .project-container > h1 {
-  color: #0d0d0d
+  color: #0d0d0d !important;
 }
 
 .footer {
