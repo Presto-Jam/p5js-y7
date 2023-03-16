@@ -22,11 +22,13 @@ This was inspired by the cool things that beziers can do. I was scrolling down t
 ## [Grid Goofiness](https://github.com/Prestopy/p5js-y7/blob/main/code%20files/p5.js%20code/grid%20goofiness.js)
 This was an attempt at creating a grid that has squares that get highlighted when the mouse goes over it. It's not that cool but it's just a practice project!!! I started this project during an, I quote my friend, a very practical detention (it wasn't). I wanted to make a QR code, but then the website crashed and I had to restart, and I forgot how to make the color be retained, so I just turned this into a practice project :). Hey! I'm still working on commiting to projects I start.
 
-## [Art Arsenal](https://github.com/Prestopy/p5js-y7/blob/main/code%20files/p5.js%20code/art%20arsenal.js)
+## [Art Arsenal](https://github.com/Prestopy/p5js-y7/blob/main/code%20files/p5.js%20code/art%20arsenal.js) (Work In Progress)
 A procedural generation art creater with grids. This was the project I decided to go with after the Grid Goofiness project I made. 
 <img src="https://user-images.githubusercontent.com/65468855/224895477-13ee59ff-d583-406b-96d4-d3e92bd7baab.png" width= 300 height= 300>
 ###### Plan of how the procedural generation will work. Typo in the title.
 I wanted to do this after I saw someone make **marching squares** with p5.js. I don't know why because marching squares is not like this. It is far from this. I guess it just made me think of procedural generation?
+
+## [Perplexing Parallax]() (Work In Progress)
 
 
 # Author
