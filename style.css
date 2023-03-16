@@ -48,7 +48,7 @@ script {
   background-color: #ffffff;
   margin: 10px;
 }
-.project-container > p, .project-container > h1 {
+.project-container > h1 {
   color: #0d0d0d !important;
 }
 
