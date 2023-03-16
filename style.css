@@ -18,17 +18,22 @@ script {
 
 .hero > h1 {
   font-size: 90px;
-  transition: 0.5s;
   margin: auto;
+  transition: 0.3s;
+
+  text-align: center;
 }
 #ht1:hover {
-  color: #ff3a72
+  color: #ff3a72;
+  transition: 0.3s;
 }
 #ht2:hover {
-  color: #ff3a72
+  color: #ff3a72;
+  transition: 0.3s;
 }
 #ht3:hover {
-  color: #ff3a72
+  color: #ff3a72;
+  transition: 0.3s;
 }
 
 
