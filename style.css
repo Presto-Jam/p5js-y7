@@ -15,6 +15,17 @@ script {
   display: block !important;
 }
 
+@keyframes reveal {
+  from {
+    bottom: -10px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 100%;
+  }
+}
+
 .hero > h1 {
   font-size: 96px;
   font-weight: 800;
@@ -23,6 +34,8 @@ script {
   color: #ffffff;
 
   transition: 80ms;
+
+  animation: 'reveal', ease-out
 }
 .hero > #txt30 {
   font-size: 30px;
@@ -31,6 +44,7 @@ script {
   color: #ffffff;
 
   transition: 100ms;
+  animation: 'reveal', ease-out
 }
 #ht1:hover {
   color: #ff3a72;
