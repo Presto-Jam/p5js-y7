@@ -25,11 +25,12 @@ script {
   border-radius: 10px;
   background-color: #ffffff;
   margin: 10px;
+  color: #0d0d0d
 }
 
 .footer {
   background: #202020;
-  padding: 10%;
+  padding: 7%;
 }
 .footer > h1 {
   font-size: 30px;
