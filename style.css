@@ -4,7 +4,6 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #0d0d0d;
-  color: #ffffff;
   font-family: Syne, sans-serif;
 }
 
@@ -17,32 +16,32 @@ script {
 }
 
 .hero > h1 {
-  font-size: 90px;
+  font-size: 96px;
+  font-weight: 800;
   margin: auto;
-  transition: 0.3s;
-
   text-align: center;
+
+  transition: 0.1s;
 }
 #ht1:hover {
   color: #ff3a72;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 #ht2:hover {
   color: #ff3a72;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 #ht3:hover {
   color: #ff3a72;
-  transition: 0.3s;
+  transition: 0.1s;
 }
-
-
-
 .hero > p {
   font-size: 30px;
   transition: 0.5s;
   margin: auto;
+  text-align: center;
 }
+
 
 @keyframes wobble {
   from {
