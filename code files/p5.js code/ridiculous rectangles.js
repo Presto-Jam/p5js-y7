@@ -26,5 +26,5 @@ let sketch = function(p) {
     }
   }
 
-  let canvas_rire = new p5(sketch)
+  let canvas_rire = new p5(sketch, 'RiRe')
 }
