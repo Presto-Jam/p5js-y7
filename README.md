@@ -28,7 +28,7 @@ A procedural generation art creater with grids. This was the project I decided t
 ###### Plan of how the procedural generation will work. Typo in the title.
 I wanted to do this after I saw someone make **marching squares** with p5.js. I don't know why because marching squares is not like this. It is far from this. I guess it just made me think of procedural generation?
 
-## [Perplexing Parallax]() (Work In Progress)
+## [Perplexing Parallax](https://github.com/Prestopy/p5js-y7/blob/main/code%20files/p5.js%20code/perplexing%20parallax.js) (Work In Progress)
 
 
 # Author
