@@ -5,6 +5,8 @@ html, body {
   padding: 0;
   background-color: #0d0d0d;
   font-family: Syne, sans-serif;
+
+  color: #ffffff
 }
 
 canvas, script {
@@ -31,7 +33,6 @@ script {
   font-weight: 800;
   margin: auto;
   text-align: center;
-  color: #ffffff !important;
 
   transition: 80ms;
 
@@ -41,7 +42,6 @@ script {
   font-size: 30px !important;
   margin: auto;
   text-align: center !important;
-  color: #ffffff !important;
 
   transition: 100ms;
   animation: 'reveal', ease-out
@@ -59,6 +59,9 @@ script {
   transition: 80ms;
 }
 
+#sub-text {
+  text-align: center;
+}
 
 .container {
   padding: 5%
@@ -71,6 +74,9 @@ script {
   margin: 10px;
 }
 .project-container > h1 {
+  color: #0d0d0d !important;
+}
+.project-container > p {
   color: #0d0d0d !important;
 }
 
