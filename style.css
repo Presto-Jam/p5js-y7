@@ -31,17 +31,17 @@ script {
   font-weight: 800;
   margin: auto;
   text-align: center;
-  color: #ffffff;
+  color: #ffffff !important;
 
   transition: 80ms;
 
   animation: 'reveal', ease-out
 }
 .hero > #txt30 {
-  font-size: 30px;
+  font-size: 30px !important;
   margin: auto;
   text-align: center;
-  color: #ffffff;
+  color: #ffffff !important;
 
   transition: 100ms;
   animation: 'reveal', ease-out
