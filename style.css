@@ -23,13 +23,13 @@ script {
 .project-container {
   padding: 20px;
   border-radius: 10px;
-  background-color: #131324;
+  background-color: #212121;
   margin: 10px;
 }
 
 .footer {
   background: #202020;
-  padding: 20px;
+  padding: 10%;
 }
 .footer > h1 {
   font-size: 30px;
