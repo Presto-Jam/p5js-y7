@@ -37,7 +37,7 @@ script {
 
   animation: 'reveal', ease-out
 }
-.hero > p {
+.hero > h3 {
   font-size: 30px !important;
   margin: auto;
   text-align: center;
