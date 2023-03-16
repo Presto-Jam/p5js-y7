@@ -3,14 +3,14 @@ let cursory = 100
 let canvasx = 800
 let canvasy = 800
 
-let lineamt = 100
+let lineamt = 10
 
 let linebgr = 255
 let linebgg = 255
 let linebgb = 255
 
 function setup() {
-  let bobecnv = createCanvas(canvasx,canvasy)
+  let bobecnv = createCanvas(windowWidth,windowHeight)
   frameRate(120)
 
   //HTML Setup
@@ -39,7 +39,7 @@ function draw() {
   strokeWeight(1.5)
   for (let i = 0; i < lineamt*10; i=i+10) {
     stroke(random()*linebgr, random()*linebgg, random()*linebgb)
-    bezier(i, i, cursorposx, cursorposy, cursorposx, cursorposy, canvasx, canvasy);
+    bezier(i, i, cursorposx, cursorposy, cursorposx, cursorposy, canvasx*2, canvasy);
   }
 
 }
