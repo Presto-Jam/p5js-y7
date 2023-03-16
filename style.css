@@ -21,44 +21,28 @@ script {
   margin: auto;
   text-align: center;
 
-  transition: 0.1s;
-}
-#ht1:hover {
-  color: #ff3a72;
-  transition: 0.1s;
-}
-#ht2:hover {
-  color: #ff3a72;
-  transition: 0.1s;
-}
-#ht3:hover {
-  color: #ff3a72;
-  transition: 0.1s;
+  transition: 80ms;
 }
 .hero > p {
   font-size: 30px;
-  transition: 0.5s;
   margin: auto;
   text-align: center;
+
+  transition: 100ms;
+}
+#ht1:hover {
+  color: #ff3a72;
+  transition: 80ms;
+}
+#ht2:hover {
+  color: #ff3a72;
+  transition: 80ms;
+}
+#ht3:hover {
+  color: #ff3a72;
+  transition: 80ms;
 }
 
-
-@keyframes wobble {
-  from {
-    rotate: 5deg;
-  }
-  to {
-    rotate: -5deg;
-  }
-}
-
-.hero > h1:hover {
-  margin-bottom: 1px;
-
-  animation: 'wobble', infinite, ease-in-out;
-
-  transition: 0.5s;
-}
 
 .container {
   padding: 5%
