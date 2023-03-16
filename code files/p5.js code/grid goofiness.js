@@ -16,11 +16,11 @@ let boxesgen = 0
 let boxchecknum = 0
 
 function setup() {
-  let cnv = createCanvas(480, 480);
+  let grgocnv = createCanvas(480, 480);
   background(225,225,225);
 
   //HTML Setup
-  cnv.parent('GrGo')
+  grgocnv.parent('GrGo')
 }
 
 function draw() {

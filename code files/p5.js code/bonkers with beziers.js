@@ -10,11 +10,11 @@ let linebgg = 255
 let linebgb = 255
 
 function setup() {
-  let cnv = createCanvas(canvasx,canvasy)
+  let bobecnv = createCanvas(canvasx,canvasy)
   frameRate(120)
 
   //HTML Setup
-  cnv.parent('BoBe')
+  bobecnv.parent('BoBe')
 }
 
 function draw() {
