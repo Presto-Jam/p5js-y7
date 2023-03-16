@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&family=Syne:wght@400;700;800&display=swap');
 
 html, body {
   margin: 0;
   padding: 0;
   background-color: #0d0d0d;
   color: #ffffff !important;
-  font-family: Inter, sans-serif;
+  font-family: Syne, sans-serif;
 }
 
 canvas, script {
@@ -17,8 +17,26 @@ script {
 }
 
 .hero > h1 {
-  font-size: 40px;
+  font-size: 90px;
   transition: 0.5s;
+  margin: auto;
+}
+#ht1:hover {
+  color: #ff3a72
+}
+#ht2:hover {
+  color: #ff3a72
+}
+#ht3:hover {
+  color: #ff3a72
+}
+
+
+
+.hero > p {
+  font-size: 30px;
+  transition: 0.5s;
+  margin: auto;
 }
 
 @keyframes wobble {
