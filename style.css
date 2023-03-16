@@ -16,7 +16,7 @@ script {
   display: block !important;
 }
 
-.hero {
+.hero > h1 {
   background: linear-gradient(90deg, #ff5454,#ff9422);
   -webkit-background-clip: text;
   transition: 0.5s;
