@@ -23,6 +23,12 @@ script {
 .project-container {
   padding: 20px;
   border-radius: 10px;
-  background-color: #37373b
+  background-color: #131324;
+  margin: 10px;
+}
+
+.footer {
+  background: #202020;
+  padding: 20px;
 }
 
