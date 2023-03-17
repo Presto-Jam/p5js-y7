@@ -10,5 +10,5 @@ document.addEventListener('mousemove', onMouseMove);
 let projects = document.getElementsByClassName('project-container')
 
 projects.addEventListener('mouseenter', () => {
-  circle.style.scale = 105%;
+  circle.style.scale = 1.3;
 })
