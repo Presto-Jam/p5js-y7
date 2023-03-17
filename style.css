@@ -6,7 +6,9 @@ html, body {
   background-color: #0d0d0d;
   font-family: Syne, sans-serif;
 
-  color: #ffffff
+  color: #ffffff;
+
+  cursor: none;
 }
 
 canvas, script {
@@ -15,6 +17,14 @@ canvas, script {
 
 script {
   display: block !important;
+}
+
+#cusrom-cursor {
+  position: absolute;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 @keyframes reveal {
@@ -55,7 +65,7 @@ script {
   transition: 80ms;
 }
 #ht3:hover {
-  color: #ffa63a;
+  color: #ff6d18;
   transition: 80ms;
 }
 
