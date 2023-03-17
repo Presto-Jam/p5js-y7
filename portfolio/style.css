@@ -28,12 +28,8 @@ script {
   border-radius: 50%;
 
   backdrop-filter: invert(100%) grayscale(100%);
-}
-.hero:hover, #custom-cursor {
-  scale: 103%;
-}
-.project-container:hover, #custom-cursor {
-  scale: 103%;
+
+  transition: 0.3;
 }
 
 
