@@ -17,7 +17,10 @@ creditsize = 15
 
 
 function setup() {
-    createCanvas(cx,cy)
+    let cochcnv = createCanvas(cx,cy)
+
+    //HTML Setup
+    cochcnv.parent('CoCh')
 }
   
 function draw() {
