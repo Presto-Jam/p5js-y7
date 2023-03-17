@@ -19,6 +19,7 @@ script {
   display: block !important;
 }
 
+/* custom cursor */
 #custom-cursor {
   position: absolute;
 
@@ -28,6 +29,13 @@ script {
 
   backdrop-filter: invert(100%) grayscale(100%);
 }
+.hero:hover, #custom-cursor {
+  scale: 103%;
+}
+.project-container:hover, #custom-cursor {
+  scale: 103%;
+}
+
 
 @keyframes reveal {
   from {
@@ -39,6 +47,7 @@ script {
     opacity: 100%;
   }
 }
+
 
 .hero > h1 {
   font-size: 96px;
