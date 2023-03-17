@@ -8,4 +8,4 @@ const onscroll = (e) => {
   circle.style.top = e.pageY + 'px';
 }
 document.addEventListener('mousemove', onMouseMove);
-window.addEventListener('scroll', onscroll);
+document.addEventListener('scroll', onscroll);
