@@ -10,5 +10,11 @@ document.addEventListener('mousemove', onMouseMove);
 let projects = document.getElementsByClassName('project-container')
 
 projects.addEventListener('mouseenter', () => {
-  circle.style.scale = 1.3;
+  gsap.to(cursor, 1, {
+      scale: 1,
+      opacity: 1,
+      top: '-75px',
+      left: '-75px',
+      ease: Elastic.easeOut.config(1, 0.3)
+  })
 })
