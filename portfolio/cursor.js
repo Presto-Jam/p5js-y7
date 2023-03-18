@@ -1,6 +1,11 @@
 let circle = document.getElementById('custom-cursor');
-const onMouseMove = (e) =>{
+
+const onMouseMove = (e) => {
   circle.style.left = e.pageX + 'px';
-  circle.style.top = e.pageY + 'px';
+  circle.style.top = e.pageY + 'px';;
 }
+document.body.addEventListener("scroll", e => {
+  root.style.setProperty('--mouse-x', e.clientX + "px");
+  root.style.setProperty('--mouse-y', e.clientY + "px");
+});
 document.addEventListener('mousemove', onMouseMove);
