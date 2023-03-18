@@ -6,6 +6,6 @@ const onMouseMove = (e) => {
 }
 document.body.addEventListener("scroll", e => {
   root.style.setProperty('--mouse-x', e.clientX + "px");
-  root.style.setProperty('--mouse-y', window.scrollY + e.clientY + "px");
+  root.style.setProperty('--mouse-y', e.clientY + "px");
 });
 document.addEventListener('mousemove', onMouseMove);
