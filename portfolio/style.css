@@ -31,6 +31,9 @@ script {
 
   transition: 0.3;
 }
+.project-container:hover, #custom-cursor {
+  scale: 1.5;
+}
 
 
 @keyframes reveal {
