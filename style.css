@@ -1,118 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&family=Syne:wght@400;700;800&display=swap');
 
 html, body {
-  margin: 0;
-  padding: 0;
-  background-color: #0d0d0d;
-  font-family: Syne, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d;
+    font-family: Syne, sans-serif;
 
-  color: #ffffff;
+    color: #ffffff;
 
-  cursor: none;
+    cursor: none;
+
+    overflow: hidden
 }
 
 canvas, script {
-  display: block;
+    display: block;
 }
 
 script {
-  display: block !important;
+    display: block !important;
 }
 
 #custom-cursor {
-  position: absolute;
+    position: absolute;
 
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 
-  backdrop-filter: invert(100%);
+    backdrop-filter: invert(100%);
 }
 
 @keyframes reveal {
-  from {
-    bottom: -10px;
-    opacity: 0;
-  }
-  to {
-    bottom: 0;
-    opacity: 100%;
-  }
+    from {
+        bottom: -10px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0;
+        opacity: 100%;
+    }
 }
 
 .hero > h1 {
-  font-size: 96px;
-  font-weight: 800;
-  margin: auto;
-  text-align: center;
+    font-size: 96px;
+    font-weight: 800;
+    margin: auto;
+    text-align: center;
 
-  transition: 80ms;
+    transition: 80ms;
 
-  animation: 'reveal', ease-out
+    animation: 'reveal', ease-out
 }
 .hero > h3 {
-  font-size: 30px !important;
-  margin: auto;
-  text-align: center !important;
+    font-size: 30px !important;
+    margin: auto;
+    text-align: center !important;
 
-  transition: 100ms;
-  animation: 'reveal', ease-out
+    transition: 100ms;
+    animation: 'reveal', ease-out
 }
 #ht1:hover {
-  color: #ff3a72;
-  transition: 80ms;
+    color: #ff3a72;
+    transition: 80ms;
 }
 #ht2:hover {
-  color: #ff5016;
-  transition: 80ms;
+    color: #ff5016;
+    transition: 80ms;
 }
 #ht3:hover {
-  color: #ff9934;
-  transition: 80ms;
+    color: #ff9934;
+    transition: 80ms;
 }
 
 #sub-text {
-  text-align: center;
+    text-align: center;
 }
 
 .container {
-  padding: 5%
+    padding: 5%
 }
 
 .project-container {
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #ffffff;
-  margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 10px;
 }
 .project-container > h1 {
-  color: #0d0d0d !important;
+    color: #0d0d0d !important;
 }
 .project-container > p {
-  color: #0d0d0d !important;
+    color: #0d0d0d !important;
 }
 
 .footer {
-  background: #202020;
-  padding: 7%;
+    background: #202020;
+    padding: 7%;
 }
 .footer > h1 {
-  font-size: 30px;
-  font-weight: 700;
-  color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
 }
 .footer > p {
-  font-size: 20px;
-  color: #ffffff;
+    font-size: 20px;
+    color: #ffffff;
 }
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+    width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+    background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-  background: #303030;
+    background: #303030;
 }
