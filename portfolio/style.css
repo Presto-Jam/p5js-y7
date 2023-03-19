@@ -81,16 +81,16 @@ script {
     padding: 5%
 }
 
-.project-container {
+.projects-container {
     padding: 20px;
     border-radius: 10px;
     background-color: #ffffff;
     margin: 10px;
 }
-.project-container > h1 {
+.projects-container > h1 {
     color: #0d0d0d !important;
 }
-.project-container > p {
+.projects-container > p {
     color: #0d0d0d !important;
 }
 
