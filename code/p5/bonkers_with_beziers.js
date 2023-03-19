@@ -43,6 +43,6 @@ let sketch = function(p) {
       bezier(i, i, cursorposx, cursorposy, cursorposx, cursorposy, canvasx*2, canvasy);
     }
 
-    let canvas_bobe = new p5(sketch, 'BoBe')
+    new p5(BoBeSketch, 'BoBe')
   }
 }
