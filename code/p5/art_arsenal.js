@@ -27,9 +27,6 @@ function setup() {
 
     startboxx = Math.floor(random()*gridx)
     startboxy = Math.floor(random()*gridy)
-
-    //HTML Setup
-    ararcnv.parent('ArAr')
 }
 
 function draw() {

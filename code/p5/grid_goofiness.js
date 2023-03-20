@@ -18,9 +18,6 @@ let boxchecknum = 0
 function setup() {
   let grgocnv = createCanvas(480, 480);
   background(225,225,225);
-
-  //HTML Setup
-  grgocnv.parent('GrGo')
 }
 
 function draw() {
@@ -54,6 +51,4 @@ function draw() {
   //       fill(random()*255,random()*255,random()*255)
   //       rect(boxsize*row, boxsize*column, boxsize,boxsize)
   //     }
-
-
 }
