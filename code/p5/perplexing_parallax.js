@@ -1,34 +1,63 @@
 //parralax effect variables
-let x1 = 250
-let x2 = 300
-let x3 = 400
+let x1
+let x2
+let x3
 
-let y1 = 250
-let y2 = 300
-let y3 = 450
+let y1
+let y2
+let y3
 
-//colors
+let parmod1x
+let parmod2x
+let parmod3x
+let parmod1y
+let parmod2y
+let parmod3y
+
+//box style
 let box1c
 let box2c
 let box3c
+
+let boxlx
+let boxly
+
 
 function setup() {
     createCanvas(500, 500);
     noStroke()
 
+    //initializing variables
+    parmod1x = random()
+    parmod2x = random()
+    parmod3x = random()
+    parmod1y = random()
+    parmod2y = random()
+    parmod3y = random()
+
     box1c = [random()*255,random()*255,random()*255]
     box2c = [random()*255,random()*255,random()*255]
     box3c = [random()*255,random()*255,random()*255]
+
+    x1 = random()*500
+    x2 = random()*500
+    x3 = random()*500
+    y1 = random()*500
+    y2 = random()*500
+    y3 = random()*500
+
+    boxlx = random()*300
+    boxly = random()*300
 }
 
 function draw() {
     ellipse()
-    let pmx1 = mouseX * 0.3
-    let pmx2 = mouseX * 0.4
-    let pmx3 = mouseX * 0.2
-    let pmy1 = mouseY * 0.2
-    let pmy2 = mouseY * 0.3
-    let pmy3 = mouseY * 0.6
+    let pmx1 = mouseX * parmod1x
+    let pmx2 = mouseX * parmod2x
+    let pmx3 = mouseX * parmod3x
+    let pmy1 = mouseY * parmod1y
+    let pmy2 = mouseY * parmod2y
+    let pmy3 = mouseY * parmod3y
 
 
     //update parallax effects
@@ -45,11 +74,11 @@ function draw() {
 
     background(0,0,0);
     fill(box1c[0],box1c[1],box1c[2])
-    rect(x1,y1,50,50)
+    rect(x1,y1,boxlx,boxly)
 
     fill(box2c[0],box2c[1],box2c[2])
-    rect(x2,y2,50,50)
+    rect(x2,y2,boxlx,boxly)
 
     fill(box3c[0],box3c[1],box3c[2])
-    rect(x3,y3,50,50)
+    rect(x3,y3,boxlx,boxly)
 }
